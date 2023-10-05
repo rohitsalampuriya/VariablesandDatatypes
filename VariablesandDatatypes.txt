@@ -78,9 +78,9 @@ answer:
 
 Q.5
 
-Two variables x and y, take a input form user and both variables have a integer datatype.
-Take a another variable rst which datatype is boolean and write x is less than or equal to y in rst.
-Write a code if the value of rst will be true then print "x is less than or equal to y",if the value of x and y is less than 0 then print "Less than Zero values is an  incorrect" and if the value of rst will be false then print "x is not less than or equal to y".
+Two variables, x and y, take input from the user, and both variables have an integer datatype.
+Take another variable rst whose datatype is boolean and write x is less than or equal to y in rst.
+Write a code if the value of rst will be true then print "x is less than or equal to y", if the value of x and y is less than 0 then print "Less than Zero values is an incorrect" and if the value of rst will be false then print "x is not less than or equal to y".
 
 answer:
 import java.util.*;
