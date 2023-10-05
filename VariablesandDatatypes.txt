@@ -1,0 +1,128 @@
+Q.1 
+
+What will the output of the following code be?
+
+int d = 23;
+int c = 46;
+
+double b = d + c;
+
+System.out.println("d "+ d + "c " + c +"="+ b);
+
+options:
+1. d 23 c 46 = 69.0
+2. d23c46 = 69
+3. d 23c 46=69.0
+4. d23 c46 = 69
+
+
+answer:
+3
+----------------------------------------------------------------------
+
+Q.2
+
+What will be the value of index 4?
+
+String names[] = {"Rajiv","Harish","Ram","Shivam"}
+
+System.out.pritnln(names[4]);
+
+options:
+1. Shivam
+2. it is a Compile Error
+3. throw an exception
+4. none of the above
+
+answer:
+3
+----------------------------------------------------------------------
+
+Q.3
+
+What is the meaning of Casting and Explain with an example?
+
+
+answer:
+
+Casting is a process that will let you know how you can convert one data type to another. It is helpful in many situations and will be of immense use to you when you write programs.
+
+example:
+      int x =20, y= 50,z=40;
+      double average = ((double) x +(double) y +(double)z)/3;
+      System.out.println(average);
+
+      O/P:
+      36.6
+
+      Explanation:
+      double average = ((double) x +(double) y +(double)z)/3;//Converting the integer dataype to double datatype 
+                     =  (20.0 +50.0+40.0)/3 
+                     =  36.6
+-----------------------------------------------------------------------
+
+Q.4
+Choose correct option for Commenting Multiple lines in java.
+
+options:
+
+1./  /
+2./*  */
+3.//
+4.none of the above
+
+answer:
+2
+
+------------------------------------------------------------------------
+
+Q.5
+
+Two variables x and y, take a input form user and both variables have a integer datatype.
+Take a another variable rst which datatype is boolean and write x is less than or equal to y in rst.
+Write a code if the value of rst will be true then print "x is less than or equal to y",if the value of x and y is less than 0 then print "Less than Zero values is an  incorrect" and if the value of rst will be false then print "x is not less than or equal to y".
+
+answer:
+import java.util.*;
+
+int x,y;
+Scanner sc = new Scanner(System.in);
+x = sc.nextInt();
+y = sc.nextInt();
+
+boolean rst = x <= y;
+if(rst == true){
+System.out.println(x+" is less than or equal to "+ y);
+}
+else if((x < 0) && (y<0)){
+System.out.println("Less than Zero values is an incorrect value");
+}
+else{
+System.out.println(x+" is not less than or equal to "+ y);
+}
+
+
+-------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
